@@ -7,7 +7,7 @@ if ($sal > 850) {
     $bonus = $sal * 0.1;
     echo "Bonus : $$bonus" . "<br />";
     // Calculate the bonus with the salary
-    $sal = $sal + $bonus;
+    $sal += $bonus;
     echo "Total Salary: $$sal";    
 }
 ?>
