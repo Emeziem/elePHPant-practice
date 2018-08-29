@@ -47,7 +47,7 @@ echo "<br />";
 
 // Setting timezone
 date_default_timezone_set('Asia/Calcutta');
-echo "Today is: " . date("1");
+echo "Today is: " . date("l");
 
 // Getting the current month
 $Today_Date = getdate();
