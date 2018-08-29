@@ -59,4 +59,18 @@ echo "<br />";
 echo "Current Month is: ";
 
 echo $current_month;
+echo "<br />";
+echo "<br />";
+
+// File error
+// echo $file = fopen("Nonsense.txt", "r");
+// Exception Handling
+if (file_exists("Nonsense.txt")) {
+    # code...
+    // $file = fopen("filename.txt", "mode: readable or writeable");
+    $file = fopen("Nonsense.txt", "r");
+} else {
+    # code...
+    die("Error: The file you are trying to access doesn't exist.");
+}
 ?>
